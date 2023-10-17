@@ -1,4 +1,5 @@
-Add your import statements for View and Game here
+import View from "./ttt-view"
+import Game from "ttt-node/game.js"
 
 document.addEventListener("DOMContentLoaded", () => {
   // Your code here
