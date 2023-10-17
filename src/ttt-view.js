@@ -35,7 +35,7 @@ class View {
   makeMove(square) {
     if (square.innerText === "") {
       square.innerText = this.game.currentPlayer;
-      square.classList.add(this.game.currentPlayer === 'X' ? 'x-mark' : 'o-mark');
+      square.classList.add(this.game.currentPlayer === 'x' ? 'x-mark' : 'o-mark');
       this.game.playMove([parseInt(square.dataset.row), parseInt(square.dataset.col)]);
     }
   
