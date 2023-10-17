@@ -20,5 +20,8 @@
   "devDependencies": {
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "ttt-node": "^1.0.0"
   }
 }
